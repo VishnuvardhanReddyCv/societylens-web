@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1DB87A;
+  --color-dark: #0B3D2E;
+  --color-mint: #F0FAF6;
+  --color-teal: #6EE7B7;
+  --color-body: #1C2B26;
+  --color-muted: #6B7B74;
+  --color-border: #D1EEE4;
+  --color-surface: #F5F7F5;
+}
+
+body {
+  font-family: var(--font-dm-sans), DM Sans, sans-serif;
+  color: var(--color-body);
+  background: var(--color-surface);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sora), Sora, sans-serif;
+}
