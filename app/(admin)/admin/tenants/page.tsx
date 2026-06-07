@@ -32,6 +32,7 @@ export default function TenantsPage() {
       </h1>
 
       <div className="bg-white rounded-xl overflow-hidden" style={{ border: '0.5px solid #D1EEE4' }}>
+        <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
             <tr style={{ borderBottom: '1px solid #D1EEE4' }}>
@@ -76,6 +77,7 @@ export default function TenantsPage() {
             ))}
           </tbody>
         </table>
+        </div>
         {tenants.length === 0 && (
           <p className="text-sm text-center py-8" style={{ color: '#6B7B74' }}>No tenants yet.</p>
         )}

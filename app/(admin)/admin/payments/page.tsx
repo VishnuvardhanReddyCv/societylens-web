@@ -183,6 +183,7 @@ export default function AdminPaymentsPage() {
         <div className="px-5 py-4 border-b" style={{ borderColor: '#F0FAF6' }}>
           <h2 className="font-semibold text-sm" style={{ fontFamily: 'Sora, sans-serif', color: '#0B3D2E' }}>Per-tenant summary</h2>
         </div>
+        <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
             <tr style={{ borderBottom: '1px solid #F0FAF6' }}>
@@ -208,6 +209,7 @@ export default function AdminPaymentsPage() {
             )}
           </tbody>
         </table>
+        </div>
       </div>
 
       {/* All payments with approve/reject */}

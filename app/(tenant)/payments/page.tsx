@@ -130,6 +130,7 @@ export default function TenantPaymentsPage() {
           </h2>
           <p className="text-xs mt-0.5" style={{ color: '#6B7B74' }}>Approved payments per resident</p>
         </div>
+        <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
             <tr style={{ borderBottom: '1px solid #F0FAF6' }}>
@@ -170,6 +171,7 @@ export default function TenantPaymentsPage() {
             )}
           </tbody>
         </table>
+        </div>
       </div>
 
       {/* Payment history */}
